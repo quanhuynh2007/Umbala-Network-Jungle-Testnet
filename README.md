@@ -58,14 +58,14 @@ docker-compose -f docker-compose-umb.yaml up -d
 
 ```
 {
-  "chain_id": "5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191"
+  "chain_id": "1c6ae7719a2a3b4ecb19584a30ff510ba1b6ded86e1fd8b8fc22f1179c622a32"
 }
 ```
 
 ## P2P LIST
 
 ```
-
+p2p-peer-address = testnet.umba.la:9000
 ```
 
 ## HTTP API LIST
