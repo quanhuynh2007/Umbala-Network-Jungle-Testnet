@@ -58,7 +58,7 @@ docker-compose -f docker-compose-umb.yaml up -d
 
 ```
 {
-  "chain_id": "1c6ae7719a2a3b4ecb19584a30ff510ba1b6ded86e1fd8b8fc22f1179c622a32"
+  "chain_id": "8a0f7878b4e3a7c3203020fb4cb96dd3f190b3ac3f157fc0732b4c9a2632fe66"
 }
 ```
 
