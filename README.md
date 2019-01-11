@@ -1,4 +1,4 @@
-# UmbalaNetowork-Testnet
+# UmbalaNetwork-Testnet
 
 Welcome to the Umbala Netowork - Testnet
 
@@ -12,12 +12,6 @@ Welcome to the Umbala Netowork - Testnet
 ```
 git clone git@github.com:UmbalaNetworkFoundation/Umbala-Network-Jungle-Testnet.git
 cd fullnode
-```
-
-## Setup a fullnode in 5 seconds using the shell
-
-```
-./run.sh
 ```
 
 ## Setup a fullnode manually in 1 minute
@@ -45,14 +39,14 @@ docker-compose -f docker-compose-umb-init.yaml up -d
 To stop:
 
 ```
-docker-compose -f docker-compose-umb.yaml down
+docker-compose -f docker-compose.yaml down
 ```
 
 To restart:
 
 ```
-docker-compose -f docker-compose-umb.yaml down
-docker-compose -f docker-compose-umb.yaml up -d
+docker-compose -f docker-compose.yaml down
+docker-compose -f docker-compose.yaml up -d
 ```
 ## Chain info
 
@@ -113,11 +107,16 @@ p2p-peer-address = 209.97.170.9:9878
 
 ```
 
+## TESTNET TRACKER
+```
+http://tracker.umbala.network
+```
+
 ## HTTP API LIST
 
 API nodes:
 ```
-http://tracker.umba.la/v1/chain/get_info
+http://testnet.umbala.network/v1/chain/get_info
 ```
 
 ## Faucet
