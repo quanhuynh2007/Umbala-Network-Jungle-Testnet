@@ -109,14 +109,14 @@ p2p-peer-address = 209.97.170.9:9878
 
 ## TESTNET TRACKER
 ```
-http://tracker.umbala.network
+http://tracker.umba.la
 ```
 
 ## HTTP API LIST
 
 API nodes:
 ```
-http://testnet.umbala.network/v1/chain/get_info
+http://testnet.umba.la/v1/chain/get_info
 ```
 
 ## Faucet
@@ -124,20 +124,20 @@ http://testnet.umbala.network/v1/chain/get_info
 Creating accounts on umbala network testnet is pretty simple:
 
 #### Free Account
-Create account using: http://faucet.umbala.network/create_account?new_account_name
+Create account using: http://testnet.umba.la/faucet/create_account?new_account_name
 
 Example:
 ```
-curl http://faucet.umbala.network/create_account\?111111111ooo
+curl http://testnet.umba.la/faucet/create_account\?111111111ooo
 ```
 
 
 #### Get Free tokens
-Get free token with: http://faucet.umbala.network/get_token?your_account_name.   
+Get free token with: http://testnet.umba.la/faucet/get_token?your_account_name.   
 
 You can get 1000 tokens each call and max 10000 tokens per day.  
 
 Example:
 ``` 
-curl http://faucet.umbala.network/get_token?111111111ooo
+curl http://testnet.umba.la/faucet/get_token?111111111ooo
 ```
